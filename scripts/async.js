@@ -4,6 +4,7 @@ const fs = require('fs')
 
 const files = getFiles()
 
+console.log('Reading %d files', files.length)
 console.time('read:async')
 
 let contentLen = 0
