@@ -24,5 +24,5 @@ for (const file of files) {
 
 function done() {
   console.timeEnd('read:async')
-  console.log('Total lines: %d', contentLen)
+  console.log('Total chars: %d', contentLen)
 }
