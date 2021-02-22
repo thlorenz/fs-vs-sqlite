@@ -1,0 +1,12 @@
+{
+  "name": "fs-vs-sqlite",
+  "version": "1.0.0",
+  "description": "Comparing perf of storing cache in flat files vs sqlite",
+  "main": "index.js",
+  "author": "Thorsten Lorenz <thlorenz@gmx.de>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "sqlite": "^4.0.19"
+  }
+}
