@@ -15,6 +15,7 @@ async function run() {
     const content = fs.readFileSync(file, 'utf8')
     await db.insertFile(file, content)
   }
+  await db.close()
 }
 
 run()
