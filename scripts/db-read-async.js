@@ -5,9 +5,9 @@ const { Db } = require('../lib/db')
 async function run() {
   const db = await Db.open()
 
-  console.time('db:selectAll')
+  console.time('db:async')
   const files = await db.selectAll()
-  console.timeEnd('db:selectAll')
+  console.timeEnd('db:async')
 
   const chars = files.reduce((sum, x) => sum + x.content.length, 0)
 

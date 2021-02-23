@@ -6,6 +6,7 @@
   "author": "Thorsten Lorenz <thlorenz@gmx.de>",
   "license": "MIT",
   "dependencies": {
+    "better-sqlite3": "^7.1.2",
     "glob": "^7.1.6",
     "sqlite": "^4.0.19",
     "sqlite3": "^5.0.2"
